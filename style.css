@@ -1,0 +1,44 @@
+body{
+    background: url("background.jpg");
+    background-size: cover;
+}
+.heading{
+    font-size:20px;
+    margin: 0px;
+    width: 100%;
+}
+.info{
+    color: black;
+    font-size: 15px;
+    font-family: 'Recursive', sans-serif;
+}
+.speed{
+    float:left;
+}
+#speed_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+.volume{
+    float:right;
+}
+#vol_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+canvas{
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: ridge;
+    margin-top : 40px;
+    border-color: black;
+    animation-name: m;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes m{
+        from{box-shadow: 5px 5px 15px white;}
+        to{box-shadow: 5px 5px 15px grey;}
+}
